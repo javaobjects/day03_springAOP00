@@ -1,16 +1,23 @@
 package aop.动态代理CGLIB;
 
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
 import java.util.Arrays;
 
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
 
+
 /**
- * 动态代理（CGLIB）：代理所有没有实现接口的类
+ * 
+* <p>Title: ProxyHandler</p>  
+* <p>
+*	Description: 
+* 	动态代理（CGLIB）：代理所有没有实现接口的类
+*   
+* </p> 
+* @author xianxian 
+* @date 2019年10月14日
  */
 public class ProxyHandler implements MethodInterceptor {
 

@@ -1,6 +1,15 @@
 package aop.静态代理;
+
 /**
- * 静态代理：代理所有实现了同一接口IUserDao的实现类
+ * 
+* <p>Title: ProxyHandler</p>  
+* <p>
+*	Description: 
+* 	静态代理：代理所有实现了同一接口IUserDao的实现类
+*   
+* </p> 
+* @author xianxian 
+* @date 2019年10月14日
  */
 public class ProxyHandler implements IUserDao {
 

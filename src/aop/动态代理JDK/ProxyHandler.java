@@ -5,8 +5,17 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Arrays;
 
+
 /**
- * 动态代理：代理所有实现了同一接口的实现类，适用于所有的接口类型
+ * 
+* <p>Title: ProxyHandler</p>  
+* <p>
+*	Description: 
+* 	动态代理：代理所有实现了同一接口的实现类，适用于所有的接口类型
+*   
+* </p> 
+* @author xianxian 
+* @date 2019年10月14日
  */
 public class ProxyHandler implements InvocationHandler {
 
